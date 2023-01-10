@@ -1,0 +1,79 @@
+body{
+    margin:10px;
+    height:100vh;
+    width:100vw;
+    overflow-x: hidden; }
+
+    .nav-link:hover .dropbtn{
+    color:blueviolet;
+    }
+
+    .wishlist:hover {
+        color:blueviolet;
+        }
+
+        .carousel-inner{
+         height: 600px;
+         transition: transform 3s ease, opacity .3s ease-out
+      }
+      
+      .item{
+          height: 100% !important;
+          width:  100% !important;
+      }
+
+    .dropbtn {
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    padding-inline: 2px;
+    }
+    .navbar navbar-expand-sm{
+      height:20px
+    }
+    .container,.nav-item p-0 {
+      color:black;
+    }
+    .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+          }
+    
+          @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+              font-size: 3.5rem;
+            }
+          }
+    .card {
+        box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+    }
+    .card-btn{
+        background-color: #E4002B;
+        color: white;
+        font-family: RenosRough-Regular;
+        float: right;
+    }
+      /**/
+    .navbar-toggler-icon,.navbar-toggler{
+      background-position: right;
+      border-style:solid;
+      background-color: black;
+      color:white;
+    }	
+    li:hover{
+    transform: scale(0.9);}
+
+    /*MARQUEE*/
+    .marquee{color:white;
+    font-size:70px;
+    background-color:black;
+     word-spacing: 1cm;
+    }
+    .marquee a:hover{
+      color:rgb(212, 174, 247);
+     text-decoration: none;
+    }
